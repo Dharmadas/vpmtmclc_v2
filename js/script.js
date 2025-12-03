@@ -1,6 +1,6 @@
 const defaultConfig = {
-    college_name_english: "National Law College",
-    college_name_hindi: "राष्ट्रीय विधि महाविद्यालय",
+    college_name_english: "VPM's TMC Law College",
+    college_name_hindi: "वीपीएम टीएमसी लॉ कॉलेज",
     college_motto: "प्रबोधनो ज्ञानमयः प्रबोधः",
     hero_title: "Excellence in Legal Education",
     hero_subtitle: "Nurturing Legal Minds for Tomorrow",
