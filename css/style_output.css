@@ -238,7 +238,7 @@ body {
 nav {
   background: white;
   box-shadow: 0 2px 15px rgba(0,0,0,0.1);
-  position: sticky;
+  position: fixed;
   width: 100%;
   top: 0;
   left: 0;
@@ -341,7 +341,7 @@ nav {
 }
 .info-banner {
   background: linear-gradient(90deg, #f8f9fa 0%, #e9ecef 100%);
-  padding: 15px 0;
+  padding: 120px 0 15px;
   border-bottom: 3px solid #1e3c72;
 }
 .info-container {
