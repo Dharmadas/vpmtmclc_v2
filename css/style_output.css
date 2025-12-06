@@ -206,7 +206,7 @@ body {
   overflow-x: hidden;
 }
 .top-bar {
-  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+  background: #2a5298;
   color: white;
   padding: 15px 0;
   text-align: center;
@@ -218,8 +218,7 @@ body {
   padding: 0 20px;
 }
 .college-name-en {
-  font-size: 1.5rem;
-  font-weight: 700;
+  font-size: 2.2rem;
   margin-bottom: 5px;
   letter-spacing: 1px;
 }
@@ -233,6 +232,10 @@ body {
   font-style: italic;
   opacity: 0.9;
   margin-top: 5px;
+}
+.vpm-logo {
+  text-decoration: none;
+  float: right;
 }
 nav {
   background: white;
@@ -249,7 +252,7 @@ nav {
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: right;
   align-items: center;
   padding: 0 20px;
 }
@@ -711,6 +714,18 @@ footer {
   .mobile-toggle {
     display: flex;
   }
+  .vpm-logo {
+    display: none;
+  }
+  .college-name-en {
+    line-height: 1.2;
+  }
+  .college-name-hi {
+    font-size: x-small;
+  }
+  .college-motto {
+    font-size: x-small;
+  }
   .nav-menu {
     position: absolute;
     top: 100%;
@@ -756,7 +771,7 @@ footer {
     grid-template-columns: 1fr;
   }
   .college-name-en {
-    font-size: 1.2rem;
+    font-size: 2.2rem;
   }
   .section-title {
     font-size: 2rem;
