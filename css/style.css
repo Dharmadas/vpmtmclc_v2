@@ -604,10 +604,13 @@ footer {
 }
 
 .footer-bottom {
-    text-align: center;
+    /* text-align: center; */
+    text-align: left;
     padding-top: 30px;
     border-top: 1px solid #343a40;
     color: #adb5bd;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 /* Animations */
