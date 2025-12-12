@@ -629,6 +629,7 @@ footer {
     animation: fadeInUp 0.8s ease;
 }
 
+
 /* Responsive Design */
 @media (max-width: 968px) {
     .mobile-toggle {
