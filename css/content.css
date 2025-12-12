@@ -1,0 +1,68 @@
+/* Styles specific to history page, matching main site theme in css/style.css */
+.content-section {
+  background: linear-gradient(180deg, #fbfdff 0%, #ffffff 100%);
+  padding: 40px 20px;
+}
+
+.content-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 36px 28px;
+  background: #ffffff;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.06);
+  border-radius: 12px;
+  color: #495057;
+  line-height: 1.8;
+}
+
+.content-container h1 {
+  font-size: 2rem;
+  color: #1e3c72;
+  margin-bottom: 14px;
+  font-weight: 700;
+}
+
+.content-container h2 {
+  font-size: 1.1rem;
+  color: #1e3c72;
+  margin-top: 22px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.content-container p {
+  font-size: 1rem;
+  margin-bottom: 14px;
+  color: #495057;
+}
+
+.content-container ul {
+  list-style: disc;
+  margin-left: 1.2rem;
+  margin-bottom: 16px;
+}
+
+.content-container li {
+  margin-bottom: 8px;
+  color: #495057;
+}
+
+.content-container a {
+  color: #1e3c72;
+  text-decoration: underline;
+}
+
+/* Make sure images inside history content are responsive */
+.content-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+}
+
+/* Small screens adjustments */
+@media (max-width: 600px) {
+  .content-section { padding: 30px 12px; }
+  .content-container { padding: 20px; border-radius: 10px; }
+  .content-container h1 { font-size: 1.4rem; }
+}
